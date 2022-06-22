@@ -1,0 +1,16 @@
+management.endpoints.web.exposure.include: "*"
+
+ribbon:
+  serverListRefreshInterval: 1000
+  ConnectTimeout: 6000
+  ReadTimeout: 3000
+
+hystrix.command.default.execution.isolation:
+    thread.timeoutInMilliseconds: 10000
+    strategy: THREAD
+
+feign.hystrix.enabled: true
+
+hazelcast.max.no.heartbeat.seconds: 6
+
+business-application.name: business

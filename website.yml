@@ -2,6 +2,6 @@ management.endpoints.web.exposure.include: "*"
 
 hazelcast.max.no.heartbeat.seconds: 6
 
-admin.url: http://admin:8080/ui/
+admin-application.url: http://localhost:8080/admin/ui/
 
-news.url: http://news:8080/ui/
+news-application.url: http://localhost:8080/news/ui/

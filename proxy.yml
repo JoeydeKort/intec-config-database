@@ -9,15 +9,15 @@ ribbon:
 zuul:
   ignoredServices: '*'
   routes:
-    website-application:
+    website:
       path: /**
       serviceId: website
       sensitiveHeaders:
-    news-application:
+    news:
       path: /news/**
       serviceId: news
       sensitiveHeaders:
-    admin-application:
+    admin:
       path: /admin/**
       serviceId: admin
       sensitiveHeaders:
